@@ -531,7 +531,7 @@ var tipuesearch = {
 			{
 				"url": "/provewhoyouare/withid#reference-cid4002%3A-your-photo-i.d.-has-failed-to-upload",
 				"title": "Reference CID4002: Your photo I.D. has failed to upload",
-				"text": "If you see the error reference code CID4002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work.",
+				"text": "If you see the error reference code CID4002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work. Find out how to prove who you are without using photo I.D. ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
@@ -539,7 +539,7 @@ var tipuesearch = {
 			{
 				"url": "/provewhoyouare/withid#reference-cid8002%3A-your-photo-i.d.-has-failed-to-upload",
 				"title": "Reference CID8002: Your photo I.D. has failed to upload",
-				"text": "If you see the error reference code CID8002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work.",
+				"text": "If you see the error reference code CID8002, this is because the picture of your photo I.D. has failed to upload. If this keeps happening there may be a problem with your internet connection, or a technical problem on our side. You can try uploading a photo of your I.D. another time or use a better internet connection. For example, you should make sure you are using Wi-Fi instead of your phone’s cellular data. Try using a different Wi-Fi connection if the one you are using doesn’t work. Find out how to prove who you are without using photo I.D.",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
