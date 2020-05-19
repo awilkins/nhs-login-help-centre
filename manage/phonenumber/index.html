@@ -13,29 +13,50 @@
 
 <link rel="stylesheet" href="/css/nhs-toolkit.min.css">
 <link rel="stylesheet" href="/css/nhs-cookie-banner.css">
+<script src=/js/utils.js></script>
 <script src=/js/consent-cookie.js></script>
 <script src=/js/analytics.js></script>
 <title>Mobile phone number</title>
 
     </head>
     <body>
-        <div id="nhsuk-cookie-banner" style="display:none">
-  <div class="nhsuk-cookie-banner" id="cookiebanner">
-    <div class="nhsuk-width-container">
-        <h2>Cookies on the NHS website</h2>
-        <p>We've put some small files called cookies on your device to make our site work.</p>
-        <p>We'd also like to use analytics cookies. These send information about how our site is used to services called Adobe Analytics, Hotjar and Google Analytics. We use this information to improve our site.</p>
-        <p>Let us know if this is OK. We'll use a cookie to save your choice. You can <a id="nhsuk-cookie-banner__link" href="/our-policies/cookies-policy/">read more about our cookies</a> before you choose.</p>
-        <ul>
-            <li><button class="nhsuk-button" id="nhsuk-cookie-banner__link_accept_analytics" href="#">I'm OK with analytics cookies</button></li>
-            <li><button class="nhsuk-button" id="nhsuk-cookie-banner__link_accept" href="#">Do not use analytics cookies</button></li>
-        </ul>
-    </div>
-  </div>
+        <script type="text/javascript">
+            document.body.classList.add('js-enabled');
+        </script>
+        <div id="nhsuk-cookie-banner" tabindex='-1' style="display:none">
+  <div>
+    <div id="cookiebanner" class="nhsuk-cookie-banner">
+      <div class="page-section">
+        <div class="nhsuk-width-container">
+          <h4 class="nhsuk-heading-s cookie-heading" tabindex='-1'>Cookies on NHS login</h4>
+          <p tabindex='-1'>
+            Cookies collect information about how you use NHS login to help us
+            make our site work as well as possible.
+          </p>
+          <p tabindex='-1'>
+            We would also like to use analytics cookies to improve our service.
+          </p>
 
-  <div class="nhsuk-success-banner" id="nhsuk-cookie-confirmation-banner" style="display:none;">
-    <div class="nhsuk-width-container">
-      <p id="nhsuk-success-banner__message">You can change your cookie settings at any time using our <a href="/our-policies/cookies-policy/">cookies page</a>.</p>
+          <button class="nhsuk-button full-width" href="#" id="nhsuk-cookie-banner__link_accept">
+            Accept all cookies
+          </button>
+
+          <button class="nhsuk-button full-width" href="#" id="nhsuk-cookie-banner__link">
+            Choose your cookies
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="nhsuk-cookie-confirmation-banner" class="nhsuk-success-banner" role="banner" style="display:none">
+      <div class="page-section" style="padding: 0px !important;">
+        <div class="nhsuk-width-container">
+          <p class="nhsuk-body accepted-cookies" tabindex='-1'>
+            You can change your cookie settings at any time using our
+            <a href="https://access.login.nhs.uk/cookies" class="nhsuk-link">cookies page</a>.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -233,7 +254,7 @@
 <hr>
 <h2 id="you-have-lost-access-to-your-mobile-phone-number">You have lost access to your mobile phone number</h2>
 <p>If you see reference CID3001, this is because you no longer have access to the phone number on your NHS login. You can change the phone number on your NHS login if you have a backup email address, or by telling us your NHS number.</p>
-<p><a href="#" title="Contact us">Contact us</a> if you do not have a backup email address and you do not know your NHS number.</p>
+<p><a href="/contact?error=CID3001" title="Contact us">Contact us</a> if you do not have a backup email address and you do not know your NHS number.</p>
 <p>You will need to tell us:</p>
 <ul>
 <li>the email address for your NHS login</li>
@@ -254,10 +275,10 @@
 <h3 id="expired-link-%E2%80%93-reference-cid3002">Expired link – Reference CID3002</h3>
 <p>The link to cancel changing your phone number has a time limit of 24 hours. If it has been more than 24 hours since you received the link in your email, it will no longer work.</p>
 <p>As it has been more than 24 hours, it may be too late to cancel as the phone number may have already been changed. You can check or change your phone number by visiting your NHS login settings.</p>
-<p><a href="#" title="Contact us">Contact us</a> if you did not mean to change your phone number, or you do not have access to the phone number on your NHS login.</p>
+<p><a href="/contact?error=CID3002" title="Contact us">Contact us</a> if you did not mean to change your phone number, or you do not have access to the phone number on your NHS login.</p>
 <h3 id="used-link-%E2%80%93-reference-cid3003">Used link – Reference CID3003</h3>
 <p>The link to cancel changing your phone number may not work because you have already used it and have successfully cancelled changing your phone number. You can check or change your phone number by visiting your <a href="https://settings.login.nhs.uk/" title="NHS login settings">NHS login settings</a>.</p>
-<p><a href="#" title="Contact us">Contact us</a> if you do not have access to the phone number on your NHS login.</p>
+<p><a href="/contact?error=CID3003" title="Contact us">Contact us</a> if you do not have access to the phone number on your NHS login.</p>
 
                 </div>
             </div>
