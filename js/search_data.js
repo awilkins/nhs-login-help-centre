@@ -355,7 +355,7 @@ var tipuesearch = {
 			{
 				"url": "/manage/phonenumber#you-have-lost-access-to-your-mobile-phone-number",
 				"title": "You have lost access to your mobile phone number",
-				"text": "If you see reference CID3001, this is because you no longer have access to the phone number on your NHS login. You can change the phone number on your NHS login if you have a backup email address, or by telling us your NHS number. Contact us if you do not have a backup email address and you do not know your NHS number. You will need to tell us: * the email address for your NHS login * the current phone number for your NHS login * your new phone number It will also help if you can tell us about a recent time when you have tried to log into a website or app using your NHS login. Tell us the date and time, if possible. To do this you can: 1. visit a website or app that uses NHS login 2. enter your username and password 3. press continue 4. note the date and time ***",
+				"text": "If you see reference CID3001, this is because you no longer have access to the phone number on your NHS login. You can change the phone number on your NHS login by telling us your NHS number. Contact us if you do not know your NHS number. You will need to tell us: * the email address for your NHS login * the current phone number for your NHS login * your new phone number It will also help if you can tell us about a recent time when you have tried to log into a website or app using your NHS login. Tell us the date and time, if possible. To do this you can: 1. visit a website or app that uses NHS login 2. enter your username and password 3. press continue 4. note the date and time ***",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
