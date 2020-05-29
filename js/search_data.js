@@ -227,7 +227,7 @@ var tipuesearch = {
 			{
 				"url": "/setupnhslogin#where-you-can-use-nhs-login",
 				"title": "Where you can use NHS login",
-				"text": "NHS login can be used on any website or app that shows the NHS login button. Clicking this button will let you log into or create an account with the website or app you are visiting. Visit the NHS login webpage for a full list of websites and apps that allow you to use NHS login.",
+				"text": "NHS login can be used on any website or app that shows the NHS login button. Clicking this button will let you log into or create an account with the website or app you visit. Visit the NHS login webpage for a full list of websites and apps that allow you to use NHS login.",
 				"tags": "",
 				"hasSearchExcerpt": false
 			}
