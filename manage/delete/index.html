@@ -13,9 +13,12 @@
 
 <link rel="stylesheet" href="/css/nhs-toolkit.min.css">
 <link rel="stylesheet" href="/css/nhs-cookie-banner.css">
+<link rel="stylesheet" href="/css/form.css">
 <script src=/js/utils.js></script>
 <script src=/js/consent.js></script>
 <script src=/js/analytics.js></script>
+<script src=/js/form-builder.js></script>
+<script src=/js/validators.js></script>
 <title>Manage and delete</title>
     </head>
     <body>
@@ -261,7 +264,7 @@
 <p>You can delete your NHS login by visiting your <a href="https://settings.login.nhs.uk/" title="NHS login settings">NHS login settings</a>.</p>
 <p>Scroll down to the bottom and select ‘delete NHS login’. You will be asked to enter your password to confirm.</p>
 <p>Once you delete your NHS login, you will not be able to use it to access any websites or apps. If you are trying to delete your account with just one website or app in particular, you should contact them directly. You may then still use your NHS login to access other websites and apps.</p>
-<p>If you delete your NHS login, any websites or apps you have used with NHS login may keep some information about you in line with their terms and conditions and privacy notice. We may also keep some information about you in line with <a href="https://account.login.nhs.uk/#/account/termsofuse/privacynotice" title="NHS login's privacy notice">NHS login's privacy notice</a></p>
+<p>If you delete your NHS login, any websites or apps you have used with NHS login may keep some information about you in line with their terms and conditions and privacy notice. We may also keep some information about you in line with <a href="https://access.login.nhs.uk/privacy" title="NHS login's privacy notice">NHS login's privacy notice</a></p>
 
                 </div>
             </div>
@@ -277,14 +280,23 @@
     <div class="nhsuk-width-container">
       <h2 class="nhsuk-u-visually-hidden">Support links</h2>
       <ul class="nhsuk-footer__list">
-        <li class="nhsuk-footer__list-item"><a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-login">NHS login for partners and developers</a></li>
-      </ul>
+        <li class="nhsuk-footer__list-item">
+          <a class="nhsuk-footer__list-item-link" href="https://digital.nhs.uk/services/nhs-login">
+            NHS login for partners and developers
+          </a>
+        </li>
+        <li class="nhsuk-footer__list-item">
+          <a class="nhsuk-footer__list-item-link" target="_blank"
+            href="https://access.login.nhs.uk/terms-and-conditions">
+            Our Policies
+          </a>
+        </li>
 
+      </ul>
       <p class="nhsuk-footer__copyright">© Crown copyright</p>
     </div>
   </div>
 </footer>
-
 
         <script src=/js/back-link.js></script>
         <script src=/js/cookie-banner.js></script>

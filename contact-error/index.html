@@ -19,7 +19,7 @@
 <script src=/js/analytics.js></script>
 <script src=/js/form-builder.js></script>
 <script src=/js/validators.js></script>
-<title>Passwords</title>
+<title>Contact Us</title>
     </head>
     <body>
         <script type="text/javascript">
@@ -215,66 +215,16 @@
 
 <div class="nhsuk-width-container ">
     <main class="nhsuk-main-wrapper " id="maincontent" role="main">
-        <div class="nhsuk-width-container">
-            <nav class="nhsuk-breadcrumb" aria-label="Breadcrumb" style="background-color: #ffffff00">
-        <ol class="nhsuk-breadcrumb__list"><li class="nhsuk-breadcrumb__item">
-                    <a class="nhsuk-breadcrumb__link" href="/">Help Centre Home</a>
-                </li><li class="nhsuk-breadcrumb__item">
-                    <a class="nhsuk-breadcrumb__link" href="/manage/">How to manage NHS login</a>
-                </li></ol>
-        <p class="nhsuk-breadcrumb__back">
-            <a class="nhsuk-breadcrumb__backlink"></a>
-        </p>
-    </nav>
-            <div class="nhsuk-grid-row">
-                <div class="nhsuk-grid-column-one-third sticky-nav">
-                    <div class="article-section-nav-wrapper">
-                        <div class="article-section-nav">
-                            <h2 class="article-section-nav__title">Passwords</h2>
-                            <nav>
-                                <ol class="article-section-nav__list"><li>
-                                                <a href="#how-to-change-your-nhs-login-password" aria-label="Scroll to 'How to change your NHS login password'" title="Scroll to 'How to change your NHS login password'">
-                                                    How to change your NHS login password
-                                                </a>
-                                            </li><li>
-                                                <a href="#the-reset-password-link-in-your-email-does-not-work" aria-label="Scroll to 'The reset password link in your email does not work'" title="Scroll to 'The reset password link in your email does not work'">
-                                                    The reset password link in your email does not work
-                                                </a>
-                                            </li></ol>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-                <div class="nhsuk-grid-column-two-thirds article-content">
-                    <h2 id="how-to-change-your-nhs-login-password">How to change your NHS login password</h2>
-<p>You can change your password by visiting your <a href="https://settings.login.nhs.uk/" title="NHS login settings">NHS login settings</a>. Under the heading ‘your personal information’ select ‘change password’.</p>
-<p>You will be asked to enter your current password, and then your new one to confirm the change.</p>
-<hr>
-<h2 id="the-reset-password-link-in-your-email-does-not-work">The reset password link in your email does not work</h2>
-<p>You can reset your NHS login password if you forget what it is. We will send a reset password link to your email address. If the reset password link in your email does not work, there are a number of possible reasons why.</p>
-<h3 id="expired-link-%E2%80%93-reference-cid2021">Expired link – Reference CID2021</h3>
-<p>The rest password link we email to you has a time limit of 1 hour. If it has been more than 1 hour since you received the email, the reset password link will no longer work.</p>
-<p>You need to go back to the website or app you were trying to access and enter your email address again. Send another request to reset your password. Make sure to select the reset password link in your email within the 1 hour time limit.</p>
-<h3 id="used-link-%E2%80%93-reference-cid2022">Used link – Reference CID2022</h3>
-<p>The reset password link may not work because you have already used it and have successfully changed your password.</p>
-<p>Try logging into a service using your new NHS login password.</p>
-<h3 id="broken-link-%E2%80%93-reference-cid2023">Broken link – Reference CID2023</h3>
-<p>A broken link can happen if:</p>
-<ul>
-<li>you copy or type the link from the email and make a mistake</li>
-<li>a technical error occurs</li>
-</ul>
-<p>If you type the web address, check it is correct. If you paste the web address, make sure you copy the full address. If this still does not work, you can start again and send another request to reset your password.</p>
-
-                </div>
+        <div class="nhsuk-grid-row">
+            <div class="nhsuk-grid-column-two-thirds">
+                <h2>Unable to send message</h2>
+                <p>There may be a problem with your internet connection, or a technical problem on our side.</p>
+                <p><a id="back-button" href="/contact">Please go back and try sending your message again.</a></p>
+                <p>The information you entered will still be there.</p>
             </div>
         </div>
     </main>
 </div>
-<script type="text/javascript">
-    window.level = 2
-</script>
-<script src=/js/header-marker.js></script>
 <footer role="contentinfo">
   <div class="nhsuk-footer" id="nhsuk-footer">
     <div class="nhsuk-width-container">
@@ -297,6 +247,13 @@
     </div>
   </div>
 </footer>
+<script type="text/javascript">
+    // needed to preseve the information the user entered previously
+    document.querySelector('#back-button').addEventListener('click', (e) => {
+        e.preventDefault();
+        window.history.back();
+    });
+</script>
 
         <script src=/js/back-link.js></script>
         <script src=/js/cookie-banner.js></script>
